@@ -98,7 +98,7 @@ print(ord(" "))
 """
 #-------------------------------------------------------------------------------------
 
-10
+"""10
 prim = int(input("Ingrese el primer numero: "))
 seg = int(input("Ingrese el segundo numero: "))
 terc = int(input("Ingrese el tercer numero: "))
@@ -112,4 +112,14 @@ print("producto: ",producto)
 smallest = min(lista)
 print("MasPeque: ",smallest)
 largest = max(lista)
-print("MasGrande: ",largest)
+print("MasGrande: ",largest)"""
+
+##-------------------------------------------------------------------------------------
+ # 11
+prim = int(input("Ingrese el primer numero: "))
+seg = int(input("Ingrese el segundo numero: "))
+terc = int(input("Ingrese el tercer numero: "))
+cuarto = int(input("Ingrese el cuarto numero: "))
+quinto = int(input("Ingrese el quinto numero: "))
+
+print(prim, seg, terc, cuarto, quinto, end="   ")
